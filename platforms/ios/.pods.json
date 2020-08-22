@@ -1,0 +1,18 @@
+{
+	"pods": {
+		"AWSS3": {
+			"type": "pod",
+			"id": "AWSS3"
+		},
+		"LFLiveKit": {
+			"type": "pod",
+			"name": "LFLiveKit",
+			"git": "https://github.com/stardevrk/LFLiveKit"
+		}
+	},
+	"sources": {
+		"https://github.com/CocoaPods/Specs.git": true
+	},
+	"iosMinVersion": "11.0",
+	"useFrameworks": true
+}

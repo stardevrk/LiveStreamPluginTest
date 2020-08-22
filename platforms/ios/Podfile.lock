@@ -1,0 +1,32 @@
+PODS:
+  - AWSCore (2.12.3)
+  - AWSS3 (2.12.3):
+    - AWSCore (= 2.12.3)
+  - LFLiveKit (2.6)
+
+DEPENDENCIES:
+  - AWSS3
+  - LFLiveKit (from `https://github.com/stardevrk/LFLiveKit`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AWSCore
+    - AWSS3
+
+EXTERNAL SOURCES:
+  LFLiveKit:
+    :git: https://github.com/stardevrk/LFLiveKit
+
+CHECKOUT OPTIONS:
+  LFLiveKit:
+    :commit: 79ff5357ac466951421255978c399a5a35b11fc9
+    :git: https://github.com/stardevrk/LFLiveKit
+
+SPEC CHECKSUMS:
+  AWSCore: a4b4aeb414bdfd55a5e8879adb4985c46da157d6
+  AWSS3: 511a7b646572686c7e193aa19bd6a5cc43ec2977
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
+
+PODFILE CHECKSUM: 2c8b83290de51f9722c6117da65b2cf1207e00b3
+
+COCOAPODS: 1.8.4
