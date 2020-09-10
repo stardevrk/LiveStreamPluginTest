@@ -4,10 +4,10 @@ angular.module('starter.controllers', [])
   $scope.showBrowser= function() {
     window.VideoUpload.init(
       {
-        poolID: 'us-east-1:68d37f98-98e6-4c06-85f6-2c31fcd38608',
-        region: 'us-east-1',
-        bucket: 'birdiefire-cv',
-        folder: 'testLocation/',
+        poolID: 'YOUR_Cognito_Pool_ID',
+        region: 'Your_Bucket_Cognito_Pool_ID_Region',
+        bucket: 'Your_Bucket',
+        folder: 'Your_Folder',
         cameraWidth: 150,
         cameraHeight: 250
       }
@@ -42,7 +42,7 @@ angular.module('starter.controllers', [])
            cameraHeight: 250
          }
        );
-       window.VideoUpload.startBroadcast('rtmp://3.89.78.208/live/g121790');
+       window.VideoUpload.startBroadcast('Your RTMP Endpoint');
      };
 })
 
